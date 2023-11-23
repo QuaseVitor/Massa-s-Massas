@@ -7,7 +7,6 @@
 body, header{
     margin-top: 60px;
     background-color: var(--color-3);
-    background-image:url(/src/image/Teste.avif);
 
 }
 
@@ -22,14 +21,12 @@ header{
 }
 
 header img{
-    margin: 0;
-    margin-top: 0.1rem;
-    scale: 0.7;
+    margin: 0.1rem 0 0 0;
+    scale: 0.8;
 }
 
 header h1{
     font-size: 1.80rem;
-    padding-top: 0.rem;
     font-family: 'Dancing Script', cursive;
     margin: auto;
     margin-top: 0.5rem;
@@ -41,7 +38,7 @@ nav ul{
     justify-content: left;
     margin-top: 0.7rem;
     list-style: none;
-    border: 0px solid red;
+
     
 }
 
@@ -56,27 +53,49 @@ nav li{
 
 .hero{
     margin:0 .75rem 0 .75rem ;
-
-
 }
 
 .hero h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
-    margin: .75rem;
 }
 
+.info{
+    margin: auto;
+    margin: 0.4rem 0.7rem 1rem 0.7rem;
+    text-align: center;
+    border: 1.2px #14151a solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 0 0.3rem 2.3rem 0.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
 
+.info h3{
+    font-family: 'Allura', cursive;
+    font-size: 2rem ;
+    margin: 1.2rem 0 0.1rem 0;
+
+
+}
+
+.info h2{
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0.5rem 0 1rem 0;
+
+}
 
 .pratos{
     display: grid;
     align-items: center;
 }
 .pratos article{
-    background-image: url(/src/image/Teste.avif);
-    
-    margin: auto;
-    margin-top: 0.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 0.4rem 0 0.5rem;
     text-align: center;
     border: 1.2px #14151a solid;
     border-radius: 10px;
@@ -87,7 +106,7 @@ nav li{
 .pratos article h3{
     font-family: 'Dancing Script', cursive;
     font-size: 1.7rem;
-    margin-bottom: 2rem;
+    margin: 0.2rem 0 1.2rem 0;
 }
 
 .pratos article img{
@@ -95,7 +114,7 @@ nav li{
 }
 
 .cardapio h2{
-    margin-left: .75rem;
+    margin: 0 0 0 .5rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.8rem;
 
@@ -103,44 +122,32 @@ nav li{
 
 .button{
     background-color: var(--cinza-bege);
+    
     color: var(--black);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
     text-align: center;
+    text-decoration: none;
+
     margin: auto;
     margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    
     justify-content: center;
     align-items: center;
     display: flex;
+
     width: 40%;
     height: 2rem;
-    margin-bottom: 2rem;
-    text-decoration: none;
     
 }
 
-.info{
-    margin: auto;
-    margin-top: 0.4rem;
-    text-align: center;
-    border: 1.2px #14151a solid;
-    border-radius: 10px;
-    width: 95%;
-    height: auto;
-    padding: 10px 0.3rem 50px 0.3rem;
-}
-
-.info h3{
-    margin-top: 2rem;
-    font-family: 'Allura', cursive;
-    font-size: 2rem ;
-
-
-}
 
 .chefes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0.4rem;
+    
     
 
 
@@ -156,10 +163,14 @@ nav li{
     width: 95%;
     height: auto;
     
-    background-color: white;
+    
     
 }
 
+.chefes article h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
 
 .chefes img{
     width:100%;
@@ -172,6 +183,12 @@ nav li{
     margin-bottom: 0.75rem;
     font-size: 1.8rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.elenco{
+    border: 2px solid black ;
+    border-width: 0 0 1px 0;
+    margin: 0.7rem 0.7rem 1rem 0.7rem;
 }
 
 footer h1{
@@ -182,6 +199,7 @@ footer h1{
 
      
 }
+
 
 footer ul{
     display: flex;
@@ -197,13 +215,6 @@ footer a{
     text-decoration: none;
     color: #14151a;
 }
-
-
-
-
-
-
-
 
 
 
